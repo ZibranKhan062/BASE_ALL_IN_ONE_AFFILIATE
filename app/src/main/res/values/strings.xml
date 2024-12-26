@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Affiliate Admin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="addnewitems">addnewitems</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="message_send">message send</string>
+    <string name="affiliate_admin">Affiliate Admin</string>
+
+    <!--    paste FCM server key below-->
+    <string name="serverKey">AAAAi-ALTOw:APA91bEM1o6VZ3w9BUNg4NPgr0gko7wxbsP_vv1TguCduTi4VRdL9uHSkFg3y2rIOzMX3NmEXlT5eb9yiU0Jpx4pzLZdyNXcmpaGKnRWWh5e-FSoN6B1Zc8VeaW0vFV-sqMWATKKuagC</string>
+
+    <string name="vid_placeholder">10 NEW Amazon SHOPPING SECRETS That Will Save You Money!</string>
+    <string name="manage_website_categories">Manage Website Categories</string>
+    <string name="manage_deals_offers">Manage Deals/Offers</string>
+    <string name="manage_app_listings">Manage App Listings</string>
+    <string name="manage_banner_images">Manage Banner Images</string>
+    <string name="manage_your_store">Manage your Store</string>
+    <string name="manage_store_banner_images">Manage Store banner Images</string>
+    <string name="manage_coupon_codes">Manage Coupon Codes</string>
+    <string name="manage_videos">Manage Videos</string>
+    <string name="manage_ads">Manage Ads</string>
+    <string name="send_notification_to_users">Send Notification to Users</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="send_me_a_message">Send me a Message</string>
+    <string name="Rs">\u20B9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

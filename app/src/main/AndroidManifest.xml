@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".Utils"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AddDealActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DealEditorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DealsOffers"
+            android:exported="true" />
+        <activity
+            android:name=".SiteCategories"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityNew"
+            android:exported="true" />
+        <activity android:name=".AllNotifications" />
+        <activity android:name=".AdsActivity" />
+        <activity android:name=".ManageStoreBannerImages" />
+        <activity android:name=".CouponDetails" />
+        <activity android:name=".CouponActivity" />
+        <activity android:name=".VideoEditActivity" />
+        <activity android:name=".AddVideoActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ContactMe" />
+        <activity android:name=".AddNewCategory" />
+        <activity android:name=".AllProductsListings" />
+        <activity android:name=".ShoppingListings" />
+        <activity android:name=".BannerImages" />
+        <activity android:name=".AppListings" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

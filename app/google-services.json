@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600759291116",
+    "firebase_url": "https://test-updated-all-in-one-shop-default-rtdb.firebaseio.com",
+    "project_id": "test-updated-all-in-one-shop",
+    "storage_bucket": "test-updated-all-in-one-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600759291116:android:fc73063c718b221fd269c9",
+        "android_client_info": {
+          "package_name": "com.devapps.affiliateadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600759291116-i0f5o9414v9ecjfm7mon9lv05d0forot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu4b3n5T2nXfoq_vzCuSRBoFUgazQcn4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600759291116-i0f5o9414v9ecjfm7mon9lv05d0forot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

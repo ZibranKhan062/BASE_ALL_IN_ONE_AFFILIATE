@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deal Options"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/tvEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Edit Deal"
+        android:drawableStart="@drawable/editbutton"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/tvDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Delete Deal"
+        android:textColor="@android:color/holo_red_dark"
+        android:drawableStart="@drawable/ic_baseline_delete_forever_24"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>
