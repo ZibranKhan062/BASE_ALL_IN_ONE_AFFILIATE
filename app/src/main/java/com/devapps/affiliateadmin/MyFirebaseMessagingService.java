@@ -20,6 +20,7 @@ import com.google.firebase.messaging.RemoteMessage;
 
 import java.util.Random;
 
+
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private final String ADMIN_CHANNEL_ID = "admin_channel";
@@ -30,20 +31,29 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         int notificationID = new Random().nextInt(3000);
 
-      /*
-        Apps targeting SDK 26 or above (Android O) must implement notification channels and add its notifications
-        to at least one of them. Therefore, confirm if version is Oreo or higher, then setup notification channel
-      */
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             setupChannels(notificationManager);
         }
 
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent,
-                PendingIntent.FLAG_ONE_SHOT);
+        int flags = 0;
 
-        Bitmap largeIcon = BitmapFactory.decodeResource(getResources(),
-                R.drawable.notify_icon);
+        // Specify mutability flag based on the SDK version
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            flags |= PendingIntent.FLAG_IMMUTABLE;
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            // Use FLAG_MUTABLE only if your app needs to modify the PendingIntent after creation
+            flags |= PendingIntent.FLAG_MUTABLE;
+        }
+        // If no specific flag is needed, use FLAG_UPDATE_CURRENT as default
+        if (flags == 0) {
+            flags = PendingIntent.FLAG_UPDATE_CURRENT;
+        }
+
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, flags);
+
+        Bitmap largeIcon = BitmapFactory.decodeResource(getResources(), R.drawable.notify_icon);
 
         Uri notificationSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, ADMIN_CHANNEL_ID)
@@ -55,7 +65,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 .setSound(notificationSoundUri)
                 .setContentIntent(pendingIntent);
 
-        //Set notification color to match your app color template
+        // Set notification color to match your app color template
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             notificationBuilder.setColor(getResources().getColor(R.color.colorPrimaryDark));
         }
@@ -65,7 +75,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void setupChannels(NotificationManager notificationManager) {
         CharSequence adminChannelName = "New notification";
-        String adminChannelDescription = "Device to devie notification";
+        String adminChannelDescription = "Device to device notification";
 
         NotificationChannel adminChannel;
         adminChannel = new NotificationChannel(ADMIN_CHANNEL_ID, adminChannelName, NotificationManager.IMPORTANCE_HIGH);

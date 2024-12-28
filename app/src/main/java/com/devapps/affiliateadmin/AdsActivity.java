@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Switch;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -198,11 +199,19 @@ public class AdsActivity extends AppCompatActivity {
 
     private void setupUpdateButtons() {
         updateAdmobButton.setOnClickListener(v -> {
+            if (Config.isdemoEnabled) {
+                Toast.makeText(AdsActivity.this, "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                return;
+            }
             clearAllErrors();
             updateAdmobIds();
         });
 
         updateFacebookButton.setOnClickListener(v -> {
+            if (Config.isdemoEnabled) {
+                Toast.makeText(AdsActivity.this, "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                return;
+            }
             clearAllErrors();
             updateFacebookIds();
         });

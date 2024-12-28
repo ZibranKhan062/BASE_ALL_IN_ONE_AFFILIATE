@@ -3,7 +3,6 @@ package com.devapps.affiliateadmin;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,6 +55,7 @@ public class CategoriesFragment extends Fragment implements SearchableFragment, 
         fabAddCategory.setOnClickListener(v -> showAddDialog());
 
     }
+
     private void showAddDialog() {
         View dialogView = getLayoutInflater().inflate(R.layout.dialog_add_category, null);
         EditText etName = dialogView.findViewById(R.id.etCategoryName);
@@ -66,6 +66,11 @@ public class CategoriesFragment extends Fragment implements SearchableFragment, 
         builder.setTitle("Add New Category")
                 .setView(dialogView)
                 .setPositiveButton("Add", (dialog, which) -> {
+
+                    if (Config.isdemoEnabled) {
+                        Toast.makeText(getActivity(), "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
                     String name = etName.getText().toString().trim();
                     String description = etDescription.getText().toString().trim();
                     String imageUrl = etImgLink.getText().toString().trim();
@@ -120,7 +125,7 @@ public class CategoriesFragment extends Fragment implements SearchableFragment, 
     private void initFirebase() {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 //        database.setPersistenceEnabled(true);
-            categoriesRef = database.getReference().child("categories");
+        categoriesRef = database.getReference().child("categories");
         categoriesRef.keepSynced(true);
     }
 
@@ -182,6 +187,13 @@ public class CategoriesFragment extends Fragment implements SearchableFragment, 
         builder.setTitle("Edit Category")
                 .setView(dialogView)
                 .setPositiveButton("Save", (dialog, which) -> {
+
+
+                    if (Config.isdemoEnabled) {
+                        Toast.makeText(getActivity(), "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
                     String name = etName.getText().toString().trim();
                     String description = etDescription.getText().toString().trim();
                     String imageUrl = etImgLink.getText().toString().trim();
@@ -196,7 +208,14 @@ public class CategoriesFragment extends Fragment implements SearchableFragment, 
                     }
                 })
                 .setNegativeButton("Cancel", null)
-                .setNeutralButton("Delete", (dialog, which) -> showDeleteConfirmation(category));
+                .setNeutralButton("Delete", (dialog, which) -> {
+
+                    if (Config.isdemoEnabled) {
+                        Toast.makeText(getActivity(), "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+                    showDeleteConfirmation(category);
+                });
 
         builder.create().show();
     }

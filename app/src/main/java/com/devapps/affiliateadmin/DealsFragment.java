@@ -174,6 +174,11 @@ public class DealsFragment extends Fragment implements DealAdapter.OnDealClickLi
         });
 
         tvDelete.setOnClickListener(v -> {
+
+            if (Config.isdemoEnabled) {
+                Toast.makeText(getActivity(), "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                return;
+            }
             // Handle delete
             showDeleteConfirmation(deal);
             bottomSheetDialog.dismiss();

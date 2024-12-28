@@ -55,7 +55,15 @@ public class DealEditorActivity extends AppCompatActivity {
     }
 
     private void setupSubmitButton() {
-        btnSubmit.setOnClickListener(v -> saveDeal());
+
+        btnSubmit.setOnClickListener(v -> {
+
+            if (Config.isdemoEnabled) {
+                Toast.makeText(DealEditorActivity.this, "This feature is not available in demo mode.", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            saveDeal();
+        });
     }
 
     private void loadDealData() {
