@@ -571,9 +571,9 @@ public class HomeFragment extends Fragment implements NavigationView.OnNavigatio
 
         if (id == R.id.nav_referEarn) {
 
-            Intent intent = new Intent(getActivity(), ReferActivity.class);
-            startActivity(intent);
-            drawerLayout.closeDrawers();
+//            Intent intent = new Intent(getActivity(), ReferActivity.class);
+//            startActivity(intent);
+//            drawerLayout.closeDrawers();
 
 //            // Inflate the custom dialog layout
 //            View dialogView = LayoutInflater.from(getActivity()).inflate(R.layout.layout_refer_earn_dialog, null);
