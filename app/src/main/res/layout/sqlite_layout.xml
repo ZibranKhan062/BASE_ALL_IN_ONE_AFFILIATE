@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorNavText">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fav_cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorNavText"
+            android:padding="2dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cardImage"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:maxHeight="90dp"
+                    android:src="@drawable/titanium" />
+
+                <TextView
+                    android:id="@+id/text_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="6dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/open_sans"
+                    android:gravity="center_horizontal"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:text="ItemName"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <ToggleButton
+                    android:id="@+id/favorite"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/ic_baseline_delete_24"
+
+                    android:padding="10dp"
+                    android:textOff=""
+                    android:textOn="" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

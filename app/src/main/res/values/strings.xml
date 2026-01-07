@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">All In One Affiliate</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_web_view">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="search_here">Search here ..</string>
+    <string name="best_trending_deals_and_discounts">Best Trending Deals and Discounts !</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+
+    <string name="copy_text">Copy Text</string>
+    <string name="you_have">You Have</string>
+    <string name="reward_point">Reward Point</string>
+    <string name="reward_point_claim">Reward Point Claim</string>
+    <string name="payment_detail">Payment Detail</string>
+    <string name="please_enter_detail">Please enter detail</string>
+
+    <string name="your_reference_code">Your Reference Code</string>
+    <string name="reference_code_detail">Share you reference code to others and earn more points.</string>
+    <string name="reward">Reward</string>
+    <string name="reference_code">Reference Code</string>
+    <string name="earn_point">Earn point</string>
+    <string name="tab_to_copy">Tap To Copy</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="failed_try_again">Failed try again</string>
+
+    <!--    Facebook Ads-->
+    <string name="fb_banner_ads">645172049494972_645172419494935</string>
+    <string name="fb_inter_ads">645172049494972_645172419494935</string>
+
+    <!--    Admob Ads-->
+    <!--   just get the App id from the Admob dashboard and replace below-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!--    social media links-->
+    <string name="email">parbez964@gmail.com</string>
+    <string name="emailSubject">All In One Affiliate App</string>
+    <string name="emailBodyText">All In One Affiliate App</string>
+    <string name="more_apps">Facebook</string> <!-- more apps Developer ID -->
+    <string name="twitter">elonmusk</string><!--twitter ID -->
+    <string name="facebook_page">TheRVCJMedia</string><!--fb page ID -->
+    <string name="instagram">investinggoal</string> <!--Instagram ID -->
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!--    promote app text-->
+    <string name="promote_app">A Study shows that about 87.8% of OS market is dominated by Android and 11.5% by iOS. \n\nSo, if you want Your Android Apps to be Featured here , then Send Us an Email with Your App Details</string>
+    <string name="vid_placeholder">10 NEW Amazon SHOPPING SECRETS That Will Save You Money!</string>
+
+    <!--    currency symbols-->
+    <string name="Rs">\u20B9</string>
+    <string name="dollar">$</string>
+    <string name="pound">\u00a3</string>
+    <string name="euro">\u20ac</string>
+
+    <string name="referral_msg">Hey there! I just found an amazing app that offers great deals and discounts. Don\'t miss out on this awesome opportunity😊🎉 ,Sign up now using my referral code : </string>
+    <string name="lorem_long">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_top">
+
+        <item
+            android:id="@+id/nav_shareVid"
+            android:icon="@drawable/share"
+            android:title="Share Video"
+            app:showAsAction="ifRoom" />
+
+
+<!--        <item-->
+<!--            android:id="@+id/share_whatsapp"-->
+<!--            android:icon="@drawable/ic_whatsapp"-->
+<!--            android:title="Share on Whatsapp"-->
+<!--            app:showAsAction="ifRoom"-->
+<!--          />-->
+
+        <item
+            android:id="@+id/share_email"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="Share via Email"
+            app:showAsAction="never" />
+
+
+    </group>
+
+
+</menu>

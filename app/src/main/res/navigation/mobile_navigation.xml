@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.devapps.affiliate.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.devapps.affiliate.TrendingFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_trending" />
+
+    <fragment
+        android:id="@+id/navigation_coupon"
+        android:name="com.devapps.affiliate.CouponFragment"
+        android:label="Coupon Code"
+        tools:layout="@layout/fragment_coupon" />
+
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.devapps.affiliate.NewsFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_news" />
+</navigation>

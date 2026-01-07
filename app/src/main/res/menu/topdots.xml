@@ -1,0 +1,80 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_bookmarks"
+
+            android:icon="@drawable/fav"
+            android:title="My Bookmarks" />
+
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_baseline_videocam_24"
+            android:title="Watch Video Deals" />
+
+
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/ic_coupon"
+            android:title="Win Coupon Codes" />
+
+        <item
+            android:id="@+id/nav_promote"
+            android:icon="@drawable/ic_promotion"
+            android:title="Promote Your App" />
+
+
+        <item
+            android:id="@+id/nav_referEarn"
+            android:icon="@drawable/baseline_monetization_on_24"
+            android:title="Refer and Earn"
+            android:visible="true" />
+
+
+        <item
+            android:id="@+id/nav_rateApp"
+            android:icon="@drawable/ic_menu_star"
+            android:title="Rate the App" />
+
+        <item
+            android:id="@+id/nav_shareApp"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share the App" />
+
+
+        <item
+            android:id="@+id/nav_more_apps"
+            android:icon="@drawable/ic_baseline_apps_24"
+            android:title="More Apps" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/instagram"
+            android:icon="@drawable/ic_menu_instagram"
+            android:title="Instagram" />
+
+        <item
+            android:id="@+id/twitter"
+            android:icon="@drawable/twitter"
+            android:title="Twitter" />
+        <item
+            android:id="@+id/facebook"
+            android:icon="@drawable/ic_menu_facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/email_us"
+            android:icon="@drawable/ic_menu_email"
+            android:title="Email">
+
+        </item>
+    </group>
+
+</menu>

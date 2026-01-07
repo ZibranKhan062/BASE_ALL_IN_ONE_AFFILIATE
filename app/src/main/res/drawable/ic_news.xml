@@ -1,0 +1,4 @@
+<!-- Newspaper-like outline (simplified path) -->
+<path android:fillColor="@android:color/black"
+    android:pathData="M2,3h20v14h-20zM5,7h3v1H5zM5,9h10v1H5zM5,11h8v1H5zM5,13h3v1H5zM19,7v8h-2v1h3v-10z"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
