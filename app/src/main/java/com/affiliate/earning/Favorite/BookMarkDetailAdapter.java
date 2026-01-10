@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,8 +16,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.DetailWebViewFav;
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.DetailWebViewFav;
+import com.affiliate.earning.R;
 
 import java.util.List;
 

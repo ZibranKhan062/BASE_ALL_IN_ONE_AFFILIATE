@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,8 +20,8 @@ import androidx.core.view.MenuItemCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.detailactivityfiles.DetailAdapter;
-import com.affiliate.affiliate.detailactivityfiles.DetailModel;
+import com.affiliate.earning.detailactivityfiles.DetailAdapter;
+import com.affiliate.earning.detailactivityfiles.DetailModel;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdListener;
 import com.facebook.ads.AdSize;

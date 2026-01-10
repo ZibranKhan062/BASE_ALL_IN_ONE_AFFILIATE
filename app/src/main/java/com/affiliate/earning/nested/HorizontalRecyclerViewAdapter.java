@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.nested;
+package com.affiliate.earning.nested;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.models.HorizontalModel;
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.models.HorizontalModel;
+import com.affiliate.earning.R;
 
 import java.util.ArrayList;
 

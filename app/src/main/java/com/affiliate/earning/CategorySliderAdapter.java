@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.slidingitemclickdestination.SliderItemDestination;
+import com.affiliate.earning.slidingitemclickdestination.SliderItemDestination;
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
 import java.util.ArrayList;

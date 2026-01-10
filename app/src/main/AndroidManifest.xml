@@ -57,7 +57,7 @@
         <activity android:name=".CouponWebView" />
         <activity android:name=".CouponPackage.CouponDetails" />
         <activity android:name=".CouponCodes" />
-        <activity android:name="com.devapps.NotificationActivity" />
+        <activity android:name="com.affiliate.NotificationActivity" />
         <activity android:name=".ScratchUI" />
         <activity android:name=".DetailWebViewFav" />
         <activity android:name=".DetailVideoActivity" />

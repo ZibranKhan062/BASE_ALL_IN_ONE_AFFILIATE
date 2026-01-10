@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.models;
+package com.affiliate.earning.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

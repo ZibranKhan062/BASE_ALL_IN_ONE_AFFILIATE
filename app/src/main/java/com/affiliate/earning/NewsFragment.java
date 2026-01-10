@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,9 +18,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.affiliate.affiliate.models.Category;
-import com.affiliate.affiliate.models.NewsAdapter;
-import com.affiliate.affiliate.models.NewsItem;
+import com.affiliate.earning.models.Category;
+import com.affiliate.earning.models.NewsAdapter;
+import com.affiliate.earning.models.NewsItem;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;

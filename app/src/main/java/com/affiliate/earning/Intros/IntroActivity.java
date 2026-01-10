@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Intros;
+package com.affiliate.earning.Intros;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,8 +15,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.SplashActivity;
+import com.affiliate.earning.R;
+import com.affiliate.earning.SplashActivity;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;

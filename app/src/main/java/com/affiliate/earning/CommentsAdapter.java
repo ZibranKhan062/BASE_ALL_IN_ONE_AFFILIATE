@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.models.Comment;
+import com.affiliate.earning.models.Comment;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

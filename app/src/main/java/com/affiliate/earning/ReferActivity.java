@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.app.Dialog;
 import android.content.ClipData;
@@ -21,7 +21,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.affiliate.affiliate.LoginSignup.LoginActivity;
+import com.affiliate.earning.LoginSignup.LoginActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

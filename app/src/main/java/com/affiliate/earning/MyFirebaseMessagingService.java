@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;

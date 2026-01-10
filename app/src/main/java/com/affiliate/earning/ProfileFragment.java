@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -21,8 +21,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.affiliate.affiliate.featuredappsfiles.FeaturedAppsAdapter;
-import com.affiliate.affiliate.featuredappsfiles.FeaturedAppsModel;
+import com.affiliate.earning.featuredappsfiles.FeaturedAppsAdapter;
+import com.affiliate.earning.featuredappsfiles.FeaturedAppsModel;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdListener;

@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.util.Log;
 import androidx.annotation.NonNull;

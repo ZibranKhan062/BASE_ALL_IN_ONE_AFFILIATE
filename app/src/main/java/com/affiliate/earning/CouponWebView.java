@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;

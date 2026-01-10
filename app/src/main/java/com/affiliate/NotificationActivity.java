@@ -13,8 +13,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.models.NotificationModel;
+import com.affiliate.earning.R;
+import com.affiliate.earning.models.NotificationModel;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

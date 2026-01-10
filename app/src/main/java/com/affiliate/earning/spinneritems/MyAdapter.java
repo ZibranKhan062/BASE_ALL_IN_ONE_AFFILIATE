@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.spinneritems;
+package com.affiliate.earning.spinneritems;
 
 import android.content.Context;
 import android.view.View;

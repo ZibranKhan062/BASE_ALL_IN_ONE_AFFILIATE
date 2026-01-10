@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Intros;
+package com.affiliate.earning.Intros;
 
 public class ScreenItem {
 

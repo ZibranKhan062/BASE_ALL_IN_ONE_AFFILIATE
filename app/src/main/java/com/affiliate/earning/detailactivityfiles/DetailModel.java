@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.detailactivityfiles;
+package com.affiliate.earning.detailactivityfiles;
 
 public class DetailModel {
 

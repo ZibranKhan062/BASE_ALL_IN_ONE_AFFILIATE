@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.LoginSignup;
+package com.affiliate.earning.LoginSignup;
 
 public class RegisterModel {
 

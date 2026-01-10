@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -47,11 +47,11 @@ import androidx.recyclerview.widget.SnapHelper;
 
 import com.amrdeveloper.lottiedialog.LottieDialog;
 import com.affiliate.NotificationActivity;
-import com.affiliate.affiliate.Favorite.BookMarksActivity;
-import com.affiliate.affiliate.homeelements.HomeAdapter;
-import com.affiliate.affiliate.homeelements.HomeModel;
-import com.affiliate.affiliate.models.DealsModel;
-import com.affiliate.affiliate.models.TempModel;
+import com.affiliate.earning.Favorite.BookMarksActivity;
+import com.affiliate.earning.homeelements.HomeAdapter;
+import com.affiliate.earning.homeelements.HomeModel;
+import com.affiliate.earning.models.DealsModel;
+import com.affiliate.earning.models.TempModel;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdListener;

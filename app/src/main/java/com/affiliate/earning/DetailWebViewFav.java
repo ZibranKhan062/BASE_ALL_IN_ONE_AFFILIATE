@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -26,9 +26,9 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.affiliate.affiliate.Favorite.BookMarksActivity;
-import com.affiliate.affiliate.Favorite.DatabaseHelper;
-import com.affiliate.affiliate.Favorite.NewsModel;
+import com.affiliate.earning.Favorite.BookMarksActivity;
+import com.affiliate.earning.Favorite.DatabaseHelper;
+import com.affiliate.earning.Favorite.NewsModel;
 //import com.wang.avi.AVLoadingIndicatorView;
 
 public class DetailWebViewFav extends AppCompatActivity {

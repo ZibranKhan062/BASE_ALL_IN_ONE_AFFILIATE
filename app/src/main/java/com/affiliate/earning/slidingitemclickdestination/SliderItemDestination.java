@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.slidingitemclickdestination;
+package com.affiliate.earning.slidingitemclickdestination;
 
 import android.content.Intent;
 import android.os.Build;
@@ -19,7 +19,7 @@ import android.widget.ProgressBar;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 //import com.wang.avi.AVLoadingIndicatorView;
 
 /**

@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
 public class DataModel {
     Integer id;

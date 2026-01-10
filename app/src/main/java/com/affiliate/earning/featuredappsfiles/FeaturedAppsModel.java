@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.featuredappsfiles;
+package com.affiliate.earning.featuredappsfiles;
 
 public class FeaturedAppsModel {
 

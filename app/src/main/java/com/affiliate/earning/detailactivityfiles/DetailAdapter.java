@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.detailactivityfiles;
+package com.affiliate.earning.detailactivityfiles;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.WebViewActivity;
+import com.affiliate.earning.R;
+import com.affiliate.earning.WebViewActivity;
 
 import java.util.ArrayList;
 import java.util.Collection;

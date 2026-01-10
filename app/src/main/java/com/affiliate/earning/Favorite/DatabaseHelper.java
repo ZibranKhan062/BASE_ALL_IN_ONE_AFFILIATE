@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
 import android.content.ContentValues;
 import android.content.Context;

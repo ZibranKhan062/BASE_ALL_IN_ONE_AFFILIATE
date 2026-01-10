@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.LoginSignup;
+package com.affiliate.earning.LoginSignup;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -11,8 +11,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.models.User;
+import com.affiliate.earning.R;
+import com.affiliate.earning.models.User;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;

@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.devapps.affiliate.HomeFragment"
+        android:name="com.affiliate.earning.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.devapps.affiliate.TrendingFragment"
+        android:name="com.affiliate.earning.TrendingFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_trending" />
 
     <fragment
         android:id="@+id/navigation_coupon"
-        android:name="com.devapps.affiliate.CouponFragment"
+        android:name="com.affiliate.earning.CouponFragment"
         android:label="Coupon Code"
         tools:layout="@layout/fragment_coupon" />
 
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.devapps.affiliate.NewsFragment"
+        android:name="com.affiliate.earning.NewsFragment"
         android:label="Explore"
         tools:layout="@layout/fragment_news" />
 </navigation>

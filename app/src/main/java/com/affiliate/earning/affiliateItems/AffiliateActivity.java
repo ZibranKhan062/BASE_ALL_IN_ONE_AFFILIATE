@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.affiliateItems;
+package com.affiliate.earning.affiliateItems;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -26,7 +26,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 //import com.wang.avi.AVLoadingIndicatorView;
 
 /**

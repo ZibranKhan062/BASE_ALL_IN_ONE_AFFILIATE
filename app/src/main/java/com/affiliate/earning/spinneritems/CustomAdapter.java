@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.spinneritems;
+package com.affiliate.earning.spinneritems;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 
 public class CustomAdapter extends BaseAdapter {
 

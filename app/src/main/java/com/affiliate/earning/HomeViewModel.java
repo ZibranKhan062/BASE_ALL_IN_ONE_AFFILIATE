@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

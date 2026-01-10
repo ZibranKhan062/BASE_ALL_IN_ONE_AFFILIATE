@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.homeelements;
+package com.affiliate.earning.homeelements;
 
 public class HomeModel {
 

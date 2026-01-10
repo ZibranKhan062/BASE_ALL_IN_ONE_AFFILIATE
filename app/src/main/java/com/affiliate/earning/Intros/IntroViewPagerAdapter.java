@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Intros;
+package com.affiliate.earning.Intros;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 
 import java.util.List;
 

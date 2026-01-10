@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.CouponPackage;
+package com.affiliate.earning.CouponPackage;
 
 import android.app.Dialog;
 import android.content.ClipData;
@@ -18,8 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.anupkumarpanwar.scratchview.ScratchView;
-import com.affiliate.affiliate.CouponWebView;
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.CouponWebView;
+import com.affiliate.earning.R;
 
 public class CouponDetails extends AppCompatActivity {
     TextView toolbarTextView;

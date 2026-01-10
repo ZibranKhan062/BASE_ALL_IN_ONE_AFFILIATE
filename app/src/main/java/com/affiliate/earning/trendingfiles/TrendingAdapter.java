@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.trendingfiles;
+package com.affiliate.earning.trendingfiles;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.Config;
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.affiliateItems.AffiliateActivity;
+import com.affiliate.earning.Config;
+import com.affiliate.earning.R;
+import com.affiliate.earning.affiliateItems.AffiliateActivity;
 
 import java.util.List;
 

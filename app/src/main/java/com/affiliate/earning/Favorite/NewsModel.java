@@ -1,6 +1,6 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 
 public class NewsModel {
 

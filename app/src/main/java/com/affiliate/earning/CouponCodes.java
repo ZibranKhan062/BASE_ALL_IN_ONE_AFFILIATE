@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -17,8 +17,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.CouponPackage.CouponAdapter;
-import com.affiliate.affiliate.CouponPackage.CouponModel;
+import com.affiliate.earning.CouponPackage.CouponAdapter;
+import com.affiliate.earning.CouponPackage.CouponModel;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdListener;

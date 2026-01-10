@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.homeelements;
+package com.affiliate.earning.homeelements;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,8 +15,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.DetailActivity;
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.DetailActivity;
+import com.affiliate.earning.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 

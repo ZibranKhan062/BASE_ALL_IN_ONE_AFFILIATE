@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.trendingfiles;
+package com.affiliate.earning.trendingfiles;
 
 public class TrendingModel {
     private String key; //

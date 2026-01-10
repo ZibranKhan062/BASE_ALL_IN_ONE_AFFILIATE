@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,10 +16,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.affiliate.affiliate.DetailActivity;
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.detailactivityfiles.DetailAdapter;
-import com.affiliate.affiliate.detailactivityfiles.DetailModel;
+import com.affiliate.earning.DetailActivity;
+import com.affiliate.earning.R;
+import com.affiliate.earning.detailactivityfiles.DetailAdapter;
+import com.affiliate.earning.detailactivityfiles.DetailModel;
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
 import com.facebook.ads.AdListener;

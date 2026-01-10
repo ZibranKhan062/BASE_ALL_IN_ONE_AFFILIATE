@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.LoginSignup;
+package com.affiliate.earning.LoginSignup;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -17,8 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.ReferActivity;
+import com.affiliate.earning.R;
+import com.affiliate.earning.ReferActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;

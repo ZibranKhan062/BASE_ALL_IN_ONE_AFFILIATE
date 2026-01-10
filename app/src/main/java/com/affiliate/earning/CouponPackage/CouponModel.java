@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.CouponPackage;
+package com.affiliate.earning.CouponPackage;
 
 public class CouponModel {
 

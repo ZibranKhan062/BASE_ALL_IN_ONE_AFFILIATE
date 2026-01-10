@@ -1,4 +1,4 @@
-package com.affiliate.affiliate.models;
+package com.affiliate.earning.models;
 
 public class Category {
     private String id;

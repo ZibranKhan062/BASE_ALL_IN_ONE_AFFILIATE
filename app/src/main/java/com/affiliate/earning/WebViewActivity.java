@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -27,9 +27,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.affiliate.affiliate.Favorite.BookMarksActivity;
-import com.affiliate.affiliate.Favorite.DatabaseHelper;
-import com.affiliate.affiliate.Favorite.NewsModel;
+import com.affiliate.earning.Favorite.BookMarksActivity;
+import com.affiliate.earning.Favorite.DatabaseHelper;
+import com.affiliate.earning.Favorite.NewsModel;
 
 public class WebViewActivity extends AppCompatActivity {
     private WebView webView;

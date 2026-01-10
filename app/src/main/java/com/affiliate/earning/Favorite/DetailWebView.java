@@ -1,10 +1,10 @@
-package com.affiliate.affiliate.Favorite;
+package com.affiliate.earning.Favorite;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.affiliate.affiliate.R;
+import com.affiliate.earning.R;
 
 public class DetailWebView extends AppCompatActivity {
 

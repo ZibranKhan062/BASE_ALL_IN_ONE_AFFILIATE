@@ -12,8 +12,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.R;
-import com.affiliate.affiliate.models.NotificationModel;
+import com.affiliate.earning.R;
+import com.affiliate.earning.models.NotificationModel;
 
 import java.util.List;
 

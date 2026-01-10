@@ -1,4 +1,4 @@
-package com.affiliate.affiliate;
+package com.affiliate.earning;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,9 +17,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.affiliate.affiliate.LoginSignup.LoginActivity;
-import com.affiliate.affiliate.models.Comment;
-import com.affiliate.affiliate.models.NewsItem;
+import com.affiliate.earning.LoginSignup.LoginActivity;
+import com.affiliate.earning.models.Comment;
+import com.affiliate.earning.models.NewsItem;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
