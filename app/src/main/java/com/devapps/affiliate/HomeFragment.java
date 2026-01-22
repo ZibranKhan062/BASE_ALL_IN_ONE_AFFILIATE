@@ -543,6 +543,13 @@ public class HomeFragment extends Fragment implements NavigationView.OnNavigatio
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
+
+        if (id == R.id.nav_profile) {
+            Intent intents = new Intent(getActivity(), ProfileActivity.class);
+            startActivity(intents);
+            drawerLayout.closeDrawers();
+        }
+
         if (id == R.id.nav_bookmarks) {
             Intent intents = new Intent(getActivity(), BookMarksActivity.class);
             startActivity(intents);

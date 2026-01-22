@@ -10,71 +10,54 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        app:theme="@style/ToolbarTheme">
-
-        <TextView
-            android:id="@+id/toolbarTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="My Earnings"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-    </androidx.appcompat.widget.Toolbar>
+        app:title="My Wallet"
+        app:titleTextColor="@android:color/white" />
 
     <RelativeLayout
-        android:id="@+id/rel22"
+        android:id="@+id/balance_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:background="@color/colorPrimary"
-        android:paddingBottom="20dp">
+        android:paddingBottom="25dp">
 
         <LinearLayout
-            android:id="@+id/l1"
+            android:id="@+id/point_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="You have "
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView_total_reward_point_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#FFEB3B"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Points"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/textView_total_reward_point_fragment"
+                android:id="@+id/tvInrValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:textColor="#FFEB3B"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" Points"
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/l2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/l1"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1000 Points = ₹10 INR"
+                android:layout_marginTop="4dp"
+                android:text="Approx. Value: ₹0 INR"
                 android:textColor="#E0E0E0"
                 android:textSize="14sp" />
         </LinearLayout>
@@ -83,26 +66,24 @@
             android:id="@+id/claim_reward"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:layout_below="@+id/l2"
+            android:layout_below="@+id/point_layout"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             android:background="@drawable/rounded"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:text="Withdraw Money"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="Withdraw Now"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimary"
             android:textStyle="bold" />
-
     </RelativeLayout>
 
     <TextView
         android:id="@+id/historyLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/rel22"
-        android:layout_margin="15dp"
-        android:text="Referral History"
+        android:layout_below="@id/balance_container"
+        android:layout_margin="16dp"
+        android:text="Withdrawal History"
         android:textColor="#333333"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -112,16 +93,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/historyLabel"
-        android:layout_margin="10dp" />
+        android:clipToPadding="false"
+        android:padding="10dp" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/reward_history"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
-        android:src="@drawable/ic_baseline_history_24"
-        app:backgroundTint="@color/colorPrimary"
-        app:tint="@android:color/white" />
 </RelativeLayout>
